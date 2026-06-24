@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>FORM</title>
+
+</head>
+<body> 
+<h1>STUDENT DETAILS</h1>
+<form >
+<h2 id='hloo'>welcome</h2> 
+<label for='name'>NAME:</label></br>
+<input type='text' id='name' name='name' minlength='100' required>
+</br></br>
+<label for='email'>EMAIL:</label></br>
+<input type='email' id='email' name='email'required ></br></br>
+<label for='age'>AGE:</label></br>
+<input type='number'id='age' name='age'required ></br></br>
+<label for='message'>MESSAGE:</label></br>
+<textarea id='message' name='message'required ></textarea>
+</br></br>
+</form>
+<button onclick='changetext()'>click me</button>
+<script>
+function changetext() {
+document.getElementById('hloo').innerHTML='new Dat';
+}
+</script>
+</body>
+</html>
